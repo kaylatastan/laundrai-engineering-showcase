@@ -1,3 +1,5 @@
+AI-powered smart laundry management system built with Flutter, FastAPI, LangChain, Groq and Firebase. Architecture, security and agent workflows.
+
 # LaundrAI — Engineering Showcase
 
 LaundrAI is a smart laundry system for shared dormitory washing machines. Students see live machine status, reserve and cancel machines, and talk to an AI assistant that can check availability and reserve a machine on their behalf.
