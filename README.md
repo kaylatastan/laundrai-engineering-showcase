@@ -6,7 +6,11 @@ This repository is a **public engineering showcase**. It explains how the system
 
 The central engineering question is the boundary between model reasoning and trusted business logic: the language model may *propose* an action, but identity, quotas, ownership and idempotency are enforced by deterministic server code that the model cannot influence.
 
-[![LaundrAI product introduction video](https://img.youtube.com/vi/4BU2yrt2p6U/hqdefault.jpg)](https://www.youtube.com/watch?v=4BU2yrt2p6U)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=4BU2yrt2p6U">
+    <img src="https://img.youtube.com/vi/4BU2yrt2p6U/maxresdefault.jpg" alt="LaundrAI product introduction video" width="720">
+  </a>
+</p>
 
 ## At a Glance
 
