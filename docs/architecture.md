@@ -1,10 +1,10 @@
 # Architecture
 
-This document describes LaundrAI as implemented in the private source. Paths refer to that source tree; they are cited for traceability and are not included in this repository.
+File paths refer to the private application repository. They are listed for reference; the source itself is not included here.
 
 ## Components
 
-| Component | Private source location | Responsibility |
+| Component | Location | Responsibility |
 | --- | --- | --- |
 | Flutter Web client | `lib/` | UI, Firebase sign-in, live Firestore reads, backend calls for every reservation write and chat message |
 | Firebase Authentication | external service | Email/password accounts; issues ID tokens |

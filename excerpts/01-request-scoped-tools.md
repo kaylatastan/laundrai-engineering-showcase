@@ -1,7 +1,7 @@
 # Excerpt 01 — Request-Scoped Tools and the Write Guard
 
 **Source:** `backend_service/app/agent/tools.py` (private repository)
-**Lines shown:** 37–46, 49–68, 114–122, 145–175 of 225. Code is copied verbatim; gaps between blocks are omitted lines.
+**Lines shown:** 37–46, 49–68, 114–122, 145–175 of 225. Code is shown unmodified; gaps between blocks are omitted lines.
 
 This excerpt shows why the language model cannot act as another user or turn a hallucinated machine ID into a reservation.
 

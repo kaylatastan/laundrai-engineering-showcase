@@ -4,7 +4,7 @@
 - `backend_service/app/dependencies.py`, lines 27–59 of 59
 - `backend_service/app/routers/chat.py`, lines 15–32 of 40
 
-Code is copied verbatim.
+Code is shown unmodified.
 
 ## Verifying the Firebase ID token
 

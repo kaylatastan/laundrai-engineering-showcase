@@ -26,7 +26,7 @@ flowchart TD
 
 - **The limit is counted from machine documents**, not from the cached `users/{uid}.activeReservationCount`. This stays correct for reservations created before the counter existed and when the profile document is missing. The counter is then *reconciled* (`set(..., merge=True)` to the computed value) rather than incremented.
 - **Machine re-check inside the transaction.** The `idle` check is made on a transactional read of the same machine document the transaction then writes, so Firestore's transaction guarantees prevent two users racing for one machine from both committing.
-- **Per-user contention point.** Every reserve transaction also writes the caller's `users/{uid}` document; the source comments describe this as the contention point for concurrent reservations by the same user. This concurrency behaviour is a design intent: it is not verified by the test suite, which mocks Firestore rather than using the emulator.
+- **Per-user contention point.** Every reserve transaction also writes the caller's `users/{uid}` document; it is intended as the contention point for concurrent reservations by the same user. This is a design intent and is not covered by the test suite, which mocks Firestore rather than using the emulator.
 
 ## Idempotency
 

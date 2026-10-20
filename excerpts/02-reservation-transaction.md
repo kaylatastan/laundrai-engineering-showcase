@@ -1,7 +1,7 @@
 # Excerpt 02 — Reservation Transaction with Idempotency
 
 **Source:** `backend_service/app/services/firebase_service.py`, method `FirebaseService.reserve_machine` (private repository)
-**Lines shown:** 110–118, 121–171, 203–214 of 363. Code is copied verbatim; gaps between blocks are omitted lines.
+**Lines shown:** 110–118, 121–171, 203–214 of 363. Code is shown unmodified; gaps between blocks are omitted lines.
 
 The same method serves the REST endpoint `POST /reservations/reserve` and the assistant's `reserve_machine` tool. `_MAX_ACTIVE_RESERVATIONS` is defined as `2` at the top of the module.
 

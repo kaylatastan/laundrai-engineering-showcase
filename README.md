@@ -69,7 +69,7 @@ Details: [docs/architecture.md](docs/architecture.md)
 
 ## Code Excerpts
 
-Three short excerpts, copied verbatim from the private source with omitted lines marked. Each cites its original path and line range.
+Three short excerpts from the application source, shown unmodified with omitted lines marked. Each lists its original file path and line range.
 
 | Excerpt | Source |
 | --- | --- |

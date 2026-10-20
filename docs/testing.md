@@ -7,9 +7,7 @@
 | Flutter client | `flutter_test` | **118** in 11 tracked test files | All passed; `flutter analyze` reported no issues |
 | FastAPI backend | Python `unittest`, `unittest.mock` | **45** in 4 test files | All passed |
 
-There is no CI pipeline. These numbers come from local runs of the private repository.
-
-A note on the Flutter count: running `flutter test` in the working copy reports 119 tests. The extra test is the default Flutter template test inside an untracked scaffold directory (`test/laundrysystem/`) that is excluded by `.gitignore`. The tracked suite contains 118 tests.
+There is no CI pipeline; results are from local runs.
 
 The backend tests mock Firestore and never call the LLM, so they run without credentials or network access.
 
@@ -48,7 +46,7 @@ The backend tests mock Firestore and never call the LLM, so they run without cre
 
 ## Selected Tests
 
-All test code below is copied verbatim from the private repository. Paths are relative to its root.
+The test code below is shown unmodified. Paths are relative to the application repository root.
 
 ### 1. The model cannot see or supply identity
 
